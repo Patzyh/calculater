@@ -53,6 +53,7 @@ calculator_project/
 └── resources/
     ├── [`recources/lightblue.json`](recources/lightblue.json )   # JSON-Datei zur Anpassung des Farbschemas
     └── Aovel.ttf        # Benutzerdefinierte Schriftart für die Oberfläche
+```
 
 ### Verwendung
 Der Taschenrechner bietet die folgenden Tasten und Funktionen:
