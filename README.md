@@ -4,7 +4,6 @@ Ein einfacher GUI-basierter Taschenrechner, entwickelt in Python mit der customt
 
 ### Inhaltsverzeichnis
 - Überblick
-- Screenshot
 - Features
 - Voraussetzungen
 - Installation
