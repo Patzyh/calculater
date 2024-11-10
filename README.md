@@ -46,10 +46,25 @@ Python und Abhängigkeiten installieren:
 ```plaintext
 calculator_project/
 │
-├── [main.py](http://_vscodecontentref_/0)              # Startskript der Anwendung
-├── [ui.py](http://_vscodecontentref_/1)                # UI-Komponenten und Logik der Benutzeroberfläche
-├── [calculation.py](http://_vscodecontentref_/2)       # Berechnungslogik für den Taschenrechner
+├── [`main.py`](main.py )              # Startskript der Anwendung
+├── [`ui.py`](ui.py )                # UI-Komponenten und Logik der Benutzeroberfläche
+├── [`calculation.py`](calculation.py )       # Berechnungslogik für den Taschenrechner
 │
 └── resources/
-    ├── [lightblue.json](http://_vscodecontentref_/3)   # JSON-Datei zur Anpassung des Farbschemas
+    ├── [`recources/lightblue.json`](recources/lightblue.json )   # JSON-Datei zur Anpassung des Farbschemas
     └── Aovel.ttf        # Benutzerdefinierte Schriftart für die Oberfläche
+
+### Verwendung
+Der Taschenrechner bietet die folgenden Tasten und Funktionen:
+
+- **Zifferntasten (0-9)**: Fügt die entsprechende Ziffer zum aktuellen Ausdruck hinzu.
+- **Punkt (.)**: Fügt einen Dezimalpunkt zum aktuellen Ausdruck hinzu.
+- **Operatoren (+, -, *, /)**: Fügt den entsprechenden mathematischen Operator zum aktuellen Ausdruck hinzu.
+- **Gleichheitszeichen (=)**: Berechnet das Ergebnis des aktuellen Ausdrucks und zeigt es an.
+- **C**: Löscht den aktuellen Ausdruck und setzt das Ergebnis auf "0".
+
+### Theme-Anpassung
+Die Farben und Stile des Taschenrechners können durch Bearbeiten der `lightblue.json`-Datei im Ordner `resources` angepasst werden. Diese Datei enthält die Farbschemata und UI-Styles für verschiedene Komponenten der Benutzeroberfläche.
+
+### Lizenz
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen finden Sie in der [LICENSE](LICENSE) Datei.
